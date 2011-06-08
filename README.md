@@ -1,10 +1,15 @@
+Usage
+=====
+
+Simply dump the TiLoad directory into your /Resources folder, include, init, and use!
+
 Example
 =======
 
 	// Include TiLoad library
-	Ti.include("TiLoad.js");
+	Ti.include("TiLoad/TiLoad.js");
 	
-	// Initialize TiLoad (param specifics if window rotates with device)
+	// Initialize TiLoad (param specifies if window rotates with device)
 	TiLoad.init({ rotate: false });
 	
 	// Create a quick test application
